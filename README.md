@@ -1,3 +1,3 @@
 # Aprendendo
- Aprendendo a versionar
+ Aprendendo a versionar.
 Revisando python
