@@ -35,3 +35,8 @@ a = frase.split()
 
 # 'x'.join(y) adiciona 'x' entre os elementos da lista 'y'
 print('-'.join(a))
+
+# .isalpha = saber se é alfabético
+# .isspace = se tem espaçoes
+# .isupper = se tá em maiúsculas
+# .islower = se tá em minúsculas
