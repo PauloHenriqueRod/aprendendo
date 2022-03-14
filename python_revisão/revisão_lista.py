@@ -25,3 +25,19 @@ print('=-'*30)
 
 # FUNÇÃO lista.count CONTA O NÚMERO DE VEZES QUE UM CERTO ELEMENTO APARECE NA LISTA
 print(lista.count('Fluminense'))
+
+# COMO ATUALIZAR UMA LISTA EM UMA FUNÇÃO DE REPETIÇÃO
+lista = []
+lista_final = []
+while True:
+    cont = str(input('ADICIONAR NOME NA LISTA?[S/N]')).upper()
+    if cont == 'N':
+        break
+    else:
+        nome = str(input('Nome: '))
+        idade = str(input('Idade: '))
+        lista.append(nome)
+        lista.append(idade)
+        lista_final.append(lista[:])
+        lista.clear()
+print(lista_final)
