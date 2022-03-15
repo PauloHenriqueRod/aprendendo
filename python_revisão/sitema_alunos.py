@@ -1,5 +1,6 @@
 aluno = list()
 lista_alunos = list()
+
 while True:
     nome = str(input('NOME DO ALUNO: '))
     if nome == '':
@@ -14,3 +15,8 @@ while True:
 print('{:.<5}{:.<15}{:.>10}'.format('Nº', 'Nome', 'Média'))
 for c in range(0, len(lista_alunos)):
     print(f'{c+1:<5}{lista_alunos[c][0]}{(lista_alunos[c][1]+lista_alunos[c][2])/2:>10.1f}')
+
+with open('ALUNOS-NOTAS.txt', 'a+') as file:
+    for nome in lista_alunos:
+        file.write(f'{nome}\n')
+        file.seek(0, 0)
