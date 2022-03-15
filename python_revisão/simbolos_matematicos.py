@@ -1,5 +1,5 @@
 # / = divisão, // = divisão inteira, * = multiplicação
-# ** = potência, % == resto da divisão
+# ** = potência, % = resto da divisão
 
 print(f'23/4={23/4}')
 print(f'23//4={23//4}')

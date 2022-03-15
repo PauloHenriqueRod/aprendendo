@@ -21,7 +21,7 @@ for q, r in enumerate(ranking):
 # pos = 1
 # jog = {'Jogador 1': randint(1,6),
 #      'Jogador 2': randint(1,6),
-#      'Jogador 3': randint(1,6),
+#      'Jogador 3': randint(1,6), 
 #      'Jogador 4': randint(1,6)}
 # for k, v in jog.items():
 #     print(f'O {k} tirou {v}')

@@ -19,15 +19,25 @@ lista.insert(2, 'Corissabá')
 print(lista)
 print('=-'*30)
 
-# FUNÇÃO lista.index ENCONTRA A POSIÇÃO DO ITEM ESCOLHIDO, EM CASO DE NÃO EXISTIR O ITEM NA LISTA RETORNA A POSIÇÃO "-1"
+# FUNÇÃO lista.index ENCONTRA A POSIÇÃO DO ITEM ESCOLHIDO"
 print(lista.index('Fluminense'))
 print('=-'*30)
+
+# FUNÇÃO lista.pop(x) REMOVE O ITEM DA POSIÇÃO 'x', SE NÃO FOR ADICIONADO A VARIÁVEL 'x' REMOVE-SE O ÚLTIMO ITEM
+removido = lista.pop()
+print(lista)
+print(removido)
+print('-='*30)
 
 # FUNÇÃO lista.count CONTA O NÚMERO DE VEZES QUE UM CERTO ELEMENTO APARECE NA LISTA
 print(lista.count('Fluminense'))
 
+ # FUNÇÃO lista.remove('Nome'), REMOVE 'Nome' DA LISTA
+lista.remove('Flamengo')
+print(lista)
+
 # COMO ATUALIZAR UMA LISTA EM UMA FUNÇÃO DE REPETIÇÃO
-lista = []
+pessoa = []
 lista_final = []
 while True:
     cont = str(input('ADICIONAR NOME NA LISTA?[S/N]')).upper()
@@ -36,8 +46,8 @@ while True:
     else:
         nome = str(input('Nome: '))
         idade = str(input('Idade: '))
-        lista.append(nome)
-        lista.append(idade)
+        pessoa.append(nome)
+        pessoa.append(idade)
         lista_final.append(lista[:])
-        lista.clear()
+        pessoa.clear()
 print(lista_final)
