@@ -14,8 +14,9 @@ for q, r in enumerate(ranking):
     print(f'{q+1}º lugar - {r[0]} - {r[1]}')
     sleep(0.5)
 
-# ----------------- OUTRO MODO DE FAZER -----------------
 
+
+# ----------------- OUTRO MODO DE FAZER -----------------
 # from random import randint
 # from time import sleep
 # pos = 1
