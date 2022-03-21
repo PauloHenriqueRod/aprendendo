@@ -65,7 +65,7 @@ print('-='*30)
 print('Sou \nTricolor')
 # INSERIR TABULAÇÃO(MARGEM) = '\t'
 print('Sou \n\tTricolor')
-# PARA ESCREVER \ USA-SE DUAS BARAS, \\
+# PARA ESCREVER "\" USA-SE DUAS BARAS, \\
 print('Olha a contra-barra: \\')
 # PODE-SE USAR PARA "ASPAS" TAMBÉM
 print('Newton disse: \"Se conseguir chegar tão longe foi porque subi no ombro de gigantes\"')
