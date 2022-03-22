@@ -1,7 +1,4 @@
-COISAS APRENDIDADAS NO CURSO DA ---SHORT CLASS: LET'S CODE--------------
-
-
-
+COISAS APRENDIDADAS NO CURSO DA ---SHORT CLASS: LET'S CODE---
 
 
 URL base para API de dados de bolsa de valores: https://www.alphavantage.co/query?
@@ -21,3 +18,25 @@ Alguns APIs são gratis, outros pagos e alguns híbridos.
 Chave: depois de fazer o registro, você recebe uma chave.
 OAuth: um esquema um pouco mais complexo onde são combinados códigos de autorização, identificação do cliente e segredo do cliente em um POST, e o servidor cria uma sessão por um tempo limitado e fornece o ID da mesma. APIs de gigantes da internet (como Google e Facebook) costumam usar esse modelo.
 
+-------------------------RATE LIMITING----------------------------------
+Por motivos de segurança, ou para venda de planos, muitas vezes o número de requisições é limitado.
+
+----------------------------WRAPERS-------------------------------------
+Uma espécie de biblioteca(wrapper libraries) que trazem classes ou funções para facilitar o acesso aos dados disponibilizados pelo API.
+
+----------------------------SANDBOX-------------------------------------
+disponibilizados muitas vezes no site da APIS, para simular o uso do API nos programas.
+
+-------------------------APIs EM Python---------------------------------
+Se for JSON-método json da própria requests.
+Se for CSV- módulo CSV.
+Se for XML-utilizar o módulo BeautifulSoup.
+
+------------------------DESCOBRINDO APIs--------------------------------
+https://github.com/n0shake/public-apis
+https://github.com/public-apis/public-apis
+https://any-api.com/
+SITES DE GOVERNO:
+http://www.transparencia.gov.br/swagger-ui.html
+http://www.dados.gov.br/
+https://brasil.io/home/
