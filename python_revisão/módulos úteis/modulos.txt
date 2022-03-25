@@ -1,0 +1,10 @@
+DATAS:
+https://docs.python.org/3/library/datetime.html#module-datetime
+https://docs.python.org/3/library/calendar.html#module-calendar
+
+JOGOS/SOM/IMAGEM:
+https://www.pygame.org/docs/
+
+LOCALIZAÇÃO:
+https://docs.python.org/pt-br/3.10/library/locale.html
+
