@@ -21,3 +21,7 @@ OS:
     https://docs.python.org/pt-br/3.10/library/os.html
 SHUTIL:
     https://docs.python.org/pt-br/3/library/shutil.html
+
+--------------------------NÚMEROS----------------------------------
+random:
+    https://docs.python.org/pt-br/3.10/library/random.html
