@@ -21,6 +21,8 @@ OS:
     https://docs.python.org/pt-br/3.10/library/os.html
 SHUTIL:
     https://docs.python.org/pt-br/3/library/shutil.html
+CSV:
+    https://docs.python.org/pt-br/3.10/library/csv.html
 
 --------------------------NÚMEROS----------------------------------
 random:
