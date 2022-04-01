@@ -9,6 +9,8 @@ CALENDAR:
 -----------------------JOGOS/SOM/IMAGEM:---------------------------
 PYGAME:
     https://www.pygame.org/docs/
+FFMPEG:
+    https://ffmpeg.org/documentation.html
 
 
 -------------------------LOCALIZAÇÃO-------------------------------
@@ -33,3 +35,4 @@ string(útil para emails):
     https://docs.python.org/pt-br/3.10/library/string.html
 JSON:
     https://docs.python.org/3/library/json.html
+
