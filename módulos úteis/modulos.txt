@@ -26,13 +26,20 @@ SHUTIL:
 CSV:
     https://docs.python.org/pt-br/3.10/library/csv.html
 
+
 --------------------------NÚMEROS----------------------------------
 random:
     https://docs.python.org/pt-br/3.10/library/random.html
+
 
 --------------------------TEXTOS-----------------------------------
 string(útil para emails):
     https://docs.python.org/pt-br/3.10/library/string.html
 JSON:
     https://docs.python.org/3/library/json.html
+
+
+----------------------------ZIP------------------------------------
+ziplist:
+    https://docs.python.org/pt-br/3/library/zipfile.html
 
