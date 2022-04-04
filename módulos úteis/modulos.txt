@@ -43,3 +43,8 @@ JSON:
 ziplist:
     https://docs.python.org/pt-br/3/library/zipfile.html
 
+---------------------------EMAILS----------------------------------
+email.mime:
+    https://docs.python.org/pt-br/3.10/library/email.mime.html
+stmplib:
+    https://docs.python.org/3/library/smtplib.html
