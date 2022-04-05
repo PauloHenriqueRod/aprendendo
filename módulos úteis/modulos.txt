@@ -48,3 +48,6 @@ email.mime:
     https://docs.python.org/pt-br/3.10/library/email.mime.html
 stmplib:
     https://docs.python.org/3/library/smtplib.html
+----------------------INTERFACE GRÁFICA----------------------------
+PyQt5:
+    https://www.riverbankcomputing.com/static/Docs/PyQt5/
