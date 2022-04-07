@@ -51,3 +51,10 @@ stmplib:
 ----------------------INTERFACE GRÁFICA----------------------------
 PyQt5:
     https://www.riverbankcomputing.com/static/Docs/PyQt5/
+    https://doc.qt.io/qtforpython/
+
+
+
+---------------------------ARTIGO----------------------------------
+super():
+    https://realpython.com/python-super/
